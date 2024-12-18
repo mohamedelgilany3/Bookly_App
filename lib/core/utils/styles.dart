@@ -8,8 +8,8 @@ abstract class Styles {
     fontWeight: FontWeight.w600,
   );
 
-  static const textStyle20 =
-      TextStyle(fontSize: 20, fontWeight: FontWeight.normal);
+  static const textStyle20 = TextStyle(
+      fontSize: 20, fontWeight: FontWeight.normal, fontFamily: kGtSectraFine);
 
   static const textStyle30 = TextStyle(
       fontSize: 30, fontWeight: FontWeight.normal, fontFamily: kGtSectraFine);
