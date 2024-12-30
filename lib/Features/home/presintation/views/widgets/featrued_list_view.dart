@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_bookly_app/Features/home/presintation/views/widgets/custom_list_view_item.dart';
+import 'package:my_bookly_app/Features/home/presintation/views/widgets/custom_book_item.dart';
 
-class FeaturedBooksListView extends StatelessWidget {
-  const FeaturedBooksListView({super.key});
+class CustomBookImage extends StatelessWidget {
+  const CustomBookImage({super.key});
   @override
   Widget build(BuildContext context) {
     return SizedBox(
