@@ -4,7 +4,8 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:my_bookly_app/core/utils/styles.dart';
 
 class BookRating extends StatelessWidget {
-  BookRating({super.key, this.mainAxisAlignment = MainAxisAlignment.start});
+  const BookRating(
+      {super.key, this.mainAxisAlignment = MainAxisAlignment.start});
   final MainAxisAlignment mainAxisAlignment;
   @override
   Widget build(BuildContext context) {
