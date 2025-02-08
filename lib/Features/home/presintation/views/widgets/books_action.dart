@@ -27,8 +27,8 @@ class BooksAction extends StatelessWidget {
               backgroundColor: Color(0xffEf8262),
               textColor: Colors.white,
               borderRadius: BorderRadius.only(
-                  topRight: Radius.circular(12),
-                  bottomRight: Radius.circular(12)),
+                  topRight: Radius.circular(16),
+                  bottomRight: Radius.circular(16)),
             ),
           ),
         ],

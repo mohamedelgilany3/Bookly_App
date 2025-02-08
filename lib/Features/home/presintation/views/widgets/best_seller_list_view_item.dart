@@ -17,7 +17,7 @@ class BestSellerListViewItem extends StatelessWidget {
         GoRouter.of(context).push(AppRouter.kBookDetailsView);
       },
       child: SizedBox(
-        height: 130,
+        height: 125,
         child: Row(
           children: [
             AspectRatio(
@@ -63,7 +63,10 @@ class BestSellerListViewItem extends StatelessWidget {
                         style: Styles.textStyle20
                             .copyWith(fontWeight: FontWeight.bold),
                       ),
-                      const Spacer(),
+                      //const Spacer(),
+                      const SizedBox(
+                        width: 30,
+                      ),
                       BookRating(
                         mainAxisAlignment: MainAxisAlignment.center,
                       ),
